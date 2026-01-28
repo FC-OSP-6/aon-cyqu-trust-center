@@ -1,0 +1,15 @@
+/* ================================
+  TL;DR  -->  🧠 The core reason why we need a separate tsconfig for stencil
+        React + Vite:
+        - Compile TS → JS for one app
+        - Output is JS that runs in the browser
+        Stencil:
+        - Compiles TSX → Web Components
+        - Generates multiple artifacts:
+            - Custom elements
+            Type definitions (components.d.ts)
+            React proxies
+            Optional loaders
+            Needs different compiler assumptions
+        - Because of that, Stencil cannot share the same tsconfig.json as your React app.
+================================ */

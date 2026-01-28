@@ -1,0 +1,4 @@
+/* ================================
+  tl;dr  -->  File that tells TypeScript how to read and interpret the code
+    1. Sets the rules for how code should behave and be checked across the project
+================================ */

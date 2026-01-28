@@ -1,0 +1,4 @@
+/* ================================
+  TL;DR  --> A button that when clicked expands to FAQs in the form of separate dropdowns for each question 
+      1. Each FAQ will have a button that will expand or shrink to show the answer to that question
+================================ */
